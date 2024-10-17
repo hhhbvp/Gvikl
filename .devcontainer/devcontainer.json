@@ -6,7 +6,7 @@
             "version": "latest"
         }
     },
-    "postStartCommand": "REPO_NAME=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$REPO_NAME/g.py",
+    "postStartCommand": "python3 /workspaces/YOURREPONAME/sasuke.py",
     "customizations": {
         "vscode": {
             "settings": {
@@ -18,3 +18,4 @@
         }
     }
 }
+
